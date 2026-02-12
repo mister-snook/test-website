@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+#wrapper-div
+{
+    width:60%;
+    min-width:700px;
+    margin:auto;
+}
+
+#header{
+    min-height:150px;
+    position:relative;
+}
+
+#header-cta{
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+
+#logo{
+    display:inline-block;
+    line-height:150px;
+    font-size:5vh;
+}
+#logo h2{
+    display:inline-block;
+    color:lightblue;
+    text-shadow: 3px 3px #555555;
+    padding:0px 20px;
+    transform: rotate(-15deg);
+}
+#logo a{
+    color:black;
+}
+
+#navigation{
+    line-height:40px;
+    height:40px;
+    font-size: 15px;
+    background-color:white;
+}
+.nav-a{
+    float:left;
+    padding: 0px 30px;
+    text-decoration:none;
+    border-right:1px solid lightgray;
+}
+.nav-a:hover{
+    background-color:lightblue;
+}
+
+
+#hero-div{
+    background-color:lightgray;
+    min-height:400px;
+    padding:30px;
+    background-color:lightblue;
+    background-image:url(../img/hero-background.jpg);
+    background-size: 100%;
+    background-position: 0 -5vh;
+    color: white;
+}
+
+.row{
+    width:100%;
+    display:inline-block;
+    min-height:200px;
+    padding:80px 30px;
+}
+.flex-box{
+    display:flex;
+    width:100%;
+}
+.left-col{
+    display:inline-block;
+    width:50%;
+    min-height:200px;
+    padding-right:15px;
+}
+.right-col{
+    display:inline-block;
+    width:50%;
+    min-height:200px;
+    padding-left:15px;
+}
+.row img{
+    width:100%;
+}
+h2{
+    margin: 0 0 8px 0;
+}
+
+.thirds-div{
+    width:33.33%;
+    float:left;
+}
+.thirds-div:first-child{
+    padding-right:15px;
+}
+.thirds-div:nth-child(2){
+    padding-left:15px;
+    padding-right:15px;
+}
+.thirds-div:last-child{
+    padding-left:15px;
+}
+
+.row:nth-child(odd){
+    background-color:white;
+}
+.row:nth-child(even){
+    background-color:#f7f7f7;
+}
+
+.double-row{
+    width:100%;
+    display:inline-block;
+    min-height:350px;
+    vertical-align:bottom;
+}
+.double-row-text{
+    padding:30px;
+    background-color:white;
+    min-height:350px;
+    
+}
+
+.cta-row{
+    text-align: center;
+    padding: 80px 30px;
+    color: lightblue;
+}
+
+.cta{
+    display:inline-block;
+    padding:10px 20px;
+    background-color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+.cta:hover{
+    background-color:lightblue;
+}
+
+#page-footer{
+    height:80px;
+    line-height:80px;
+}

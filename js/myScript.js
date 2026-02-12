@@ -1,0 +1,1 @@
+alert("External JavaScript successfully run");
